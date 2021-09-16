@@ -1,0 +1,23 @@
+.add-button,
+.remove-button {
+  display: block;
+  position: sticky;
+  padding: 5px;
+  margin: 0px 30px 0px 16px;
+  float: right;
+  background: white;
+  border: none;
+  font-family: "Amatic SC", cursive;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+button:hover {
+  font-size: 25px;
+}
+.remove-button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 15px;
+}

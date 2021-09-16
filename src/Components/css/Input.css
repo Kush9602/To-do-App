@@ -1,0 +1,17 @@
+input {
+  display: block;
+  position: sticky;
+  float: left;
+  margin: auto;
+  margin-left: 20px;
+  border: none;
+  border-bottom: 3px dashed;
+  border-color: rgb(202, 149, 14);
+  background-color: white;
+  min-width: 180px;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-family: "Amatic SC", cursive;
+}
