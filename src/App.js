@@ -69,7 +69,7 @@ function App() {
             id={todoObj.uniqueID} 
             key={todoObj.uniqueID} 
             onClick={checkItem} 
-            style={(todoObj.text === true) ? {textDecoration:'line-through'} : {textDecoration:'none'}}
+            style={ {textDecoration: todoObj.text ? 'line-through' : 'none'} }
             >
               {todoObj.todoItem}
           </li>
